@@ -6,11 +6,11 @@ name: CI
 # events but only for the master branch
 on:
   schedule:
-    - cron: '53 2 * * *'
-#   push:
-#     branches: [ master ]
-#   pull_request:
-#     branches: [ master ]
+    - cron: '54 2 * * *'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

@@ -39,8 +39,8 @@ jobs:
           echo test, and deploy your project.
           
       #clone
-      - uses: actions/clone https://github.com/chiforest32/GithubActionsHandson_202010.git
-
+      #- uses: actions/clone@v2
+        
       # nmp install
       - uses: actions/nmp install
 

@@ -42,7 +42,7 @@ jobs:
       #- uses: actions/clone@v2
         
       # nmp install
-      - uses: actions/npm install
+      - uses: actions/npm install@v2
 
       # nmp test
-      - uses: actions/npm test
+      - uses: actions/npm test@v2

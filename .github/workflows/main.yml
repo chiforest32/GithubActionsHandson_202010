@@ -40,6 +40,8 @@ jobs:
 
       # nmp install
       - name: nmp install
-        run: 
-          nmp install
-          nmp test
+        run: nmp install
+
+      # nmp test
+      - name: nmp test
+        run: nmp test

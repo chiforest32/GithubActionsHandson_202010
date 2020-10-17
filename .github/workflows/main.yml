@@ -42,7 +42,9 @@ jobs:
       #- uses: actions/clone@v2
         
       # nmp install
-      - uses: actions/npm install@v2
+      - name: Install Dependencies
+        run: npm install
 
       # nmp test
-      - uses: actions/npm test@v2
+      - name: Install Dependencies2
+        run: npm test
